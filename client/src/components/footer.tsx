@@ -1,4 +1,4 @@
-import { Leaf } from "lucide-react";
+import { Leaf, MapPin } from "lucide-react";
 
 const footerLinks = [
   {
@@ -59,8 +59,49 @@ export default function Footer() {
           ))}
         </div>
 
+        {/* AA+ Business Excellence section */}
+        <div className="mt-12 pt-8 border-t border-border">
+          <div className="flex flex-col md:flex-row items-start gap-8">
+            {/* Badges */}
+            <div className="flex items-center gap-4 shrink-0">
+              <img
+                src="/artcomp_badge_2024.svg"
+                alt="CompanyWall AA+ 2024"
+                className="h-20 w-auto"
+              />
+              <img
+                src="/artcomp_badge_2025.svg"
+                alt="CompanyWall AA+ 2025"
+                className="h-20 w-auto"
+              />
+            </div>
+
+            {/* Info */}
+            <div className="flex flex-col gap-2">
+              <h4 className="text-sm font-bold text-foreground tracking-wide">
+                ARTCOMP
+              </h4>
+              <p className="text-sm font-semibold text-foreground">
+                CompanyWall AA+ Business Excellence Rating
+                <span className="ml-2 text-muted-foreground font-normal">2024 & 2025</span>
+              </p>
+              <p className="text-xs text-muted-foreground leading-relaxed max-w-md">
+                Recognized for financial stability, business reliability, and excellence in operations.
+              </p>
+              <div className="flex flex-col sm:flex-row sm:items-center gap-3 mt-1 text-xs text-muted-foreground">
+                <span className="flex items-center gap-1.5">
+                  <MapPin size={11} />
+                  Gozdna pot 10, 6240 Kozina, Slovenia
+                </span>
+                <span className="hidden sm:inline text-border">|</span>
+                <span>VAT ID: SI81926561</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Bottom bar */}
-        <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="mt-8 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
             2026 Artcomp Technologies. All rights reserved.
           </p>
