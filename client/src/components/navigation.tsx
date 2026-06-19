@@ -50,7 +50,7 @@ export default function Navigation() {
 
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="#contact"
+            href="mailto:info@artcomp.net"
             className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
             Contact
