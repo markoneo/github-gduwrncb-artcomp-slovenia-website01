@@ -30,9 +30,7 @@ export default function Footer() {
               <img src="/90494.jpg" alt="Artcomp Technologies" className="h-9 w-auto object-contain" />
               <span className="text-lg font-bold text-foreground">Artcomp</span>
             </div>
-            <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-              Powering the shift to sustainable ground transportation across 35+ countries. An Artcomp Technologies initiative.
-            </p>
+
             <div className="flex items-center gap-1.5 text-xs text-primary">
               <Leaf size={12} />
               <span>Carbon-negative company</span>
