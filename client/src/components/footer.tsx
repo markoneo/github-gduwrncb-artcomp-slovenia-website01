@@ -26,11 +26,6 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
           {/* Brand column */}
           <div className="col-span-2 md:col-span-1">
-            <div className="flex items-center gap-2.5 mb-4">
-              <img src="/90494.jpg" alt="Artcomp Technologies" className="h-9 w-auto object-contain" />
-              <span className="text-lg font-bold text-foreground">Artcomp</span>
-            </div>
-
             <div className="flex items-center gap-1.5 text-xs text-primary">
               <Leaf size={12} />
               <span>Carbon-negative company</span>
